@@ -1,8 +1,8 @@
 # Awesome-Imitation-Learning: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of awesome imitation learning (including inverse reinforcement learning and behavior cloning) resources, inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
-
+See also [Awesome-Model-Based-Reinforcement-Learning](https://github.com/kristery/Awesome-Model-Based-Reinforcement-Learning) and [Awesome-Batch-Reinforcement-Learning](https://github.com/kristery/Awesome-Batch-Reinforcement-Learning).
 ## Contribution 
-Please feel free to send me [pull request](https://github.com/kristery/Awesome-Imitation-Learning/pulls) or email (d06922005@csie.ntu.edu.tw) to add links.
+Please feel free to send me [pull request](https://github.com/kristery/Awesome-Imitation-Learning/pulls) or email (kriswu8021@gmail.com) to add links.
 
 ## Table of Contents
 
@@ -14,6 +14,10 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
 
 ### General settings
   * [Imitation Learning from Imperfect Demonstration](http://proceedings.mlr.press/v97/wu19a/wu19a.pdf), Y. Wu et al., ICML 2019 
+
+  * A Divergence Minimization Perspective on Imitation Learning Methods, S. Ghasemipour et al., CoRL 2019
+
+  * [VILD: Variational Imitation Learning with Diverse-quality Demonstrations](https://arxiv.org/pdf/1909.06769.pdf), V. Tangkaratt et al., 2019
 
   * [Sample-Efficient Imitation Learning via Generative Adversarial Nets](https://arxiv.org/abs/1809.02064), L. Blonde et al., AISTATS 2019
   
@@ -52,6 +56,19 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [Generative Adversarial Imitation Learning](https://arxiv.org/abs/1606.03476), J. Ho et al., NIPS 2016
 
 ### Applications
+
+  * [Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/abs/1909.11821.pdf), Y. Wu et al., 2019
+
+  * [Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf), D. Brown et al., CoRL 2019
+
+  * [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/abs/1910.01077), K. Zolna et al., 2019
+
+  * [Multi-Task Hierarchical Imitation Learning for Home Automation](http://ronberenstein.com/papers/CASE19_Multi-Task%20Hierarchical%20Imitation%20Learning%20for%20Home%20Automation%20%20.pdf), R. Fox et al., 2019
+
+  * [Imitation Learning for Human Pose Prediction](https://arxiv.org/pdf/1909.03449.pdf), B. Wang et al., 2019
+
+  * [Making Efficient Use of Demonstrations to Solve Hard Exploration Problems](https://arxiv.org/abs/1909.11821), C. Gulcehre et al., 2019
+
   * [Imitation Learning from Video by Leveraging Proprioception](https://arxiv.org/pdf/1905.09335.pdf), F. Torabi et al., IJCAI 2019
 
   * [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310), M. Sun et al., 2019
@@ -76,6 +93,14 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866), K. Arulkumaran et al., 2017
   
   * [Imitation Learning : A Survey of Learning Methods](http://www.open-access.bcu.ac.uk/5045/1/Imitation%20Learning%20A%20Survey%20of%20Learning%20Methods.pdf), A. Hussein et al.
+
+### Robotics and Vision
+  * [Graph-Structured Visual Imitation](https://arxiv.org/abs/1907.05518), M. Sieb et al., CoRL 2019
+
+  * [On-Policy Robot Imitation Learning from a Converging Supervisor](https://arxiv.org/abs/1907.03423), A. Balakrishna et al., CoRL 2019
+
+  * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), M. Vecerik et al., 2017
+
 
 ### Cold-start methods
   * [Zero-Shot Visual Imitation](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w40/Pathak_Zero-Shot_Visual_Imitation_CVPR_2018_paper.pdf), D. Pathak et al., ICLR 2018
@@ -113,7 +138,13 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [Deep Reinforcement Learning from Human Preferences](http://papers.nips.cc/paper/7017-deep-reinforcement-learning-from-human-preferences), P. Christiano et al., NIPS 2017
 
 ### Learning from observations
+  * [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://arxiv.org/abs/1910.04417), C. Yang et al., NeurIPS 2019
+
+  * To Follow or not to Follow: Selective Imitation Learning from Observations, Y. Lee et al., CoRL 2019
+
   * [Provably Efficient Imitation Learning from Observation Alone](http://proceedings.mlr.press/v97/sun19b.html), W. Sun et al., ICML 2019
+
+  * [To follow or not to follow: Selective Imitation Learning from Observations](https://arxiv.org/abs/1912.07670), Y. Lee et al.
 
   * [Recent Advances in Imitation Learning from Observation](https://arxiv.org/pdf/1905.13566.pdf), F. Torabi et al., IJCAI 2019
   
@@ -144,6 +175,8 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
 
 
 ### Imitation with rewards
+  * Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning, A. Gupta et al., CoRL 2019
+
   * [Integration of Imitation Learning using GAIL and Reinforcement Learning using Task-achievement Rewards via Probabilistic Generative Model](https://arxiv.org/pdf/1907.02140.pdf), A. Kinose et al., 2019
   
   * [Reinforced Imitation in Heterogeneous Action Space](https://arxiv.org/pdf/1904.03438), K. Zolna et al., 2019
@@ -157,9 +190,6 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [Pre-training with Non-expert Human Demonstration for Deep Reinforcement Learning](https://arxiv.org/pdf/1812.08904), G. Cruz Jr et al., 2018
 
   * [Sparse Reward Based Manipulator Motion Planning by Using High Speed Learning from Demonstrations](https://ieeexplore.ieee.org/abstract/document/8665328), G. Zuo et al., ROBIO 2018
-  
-  * [Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Reward](https://pdfs.semanticscholar.org/8186/04245973bb30ad021728149a89157b3b2780.pdf), M. Vecerik et al., 2017
-
 
 ### Multi-agent systems
   * [Independent Generative Adversarial Self-Imitation Learning in Cooperative Multiagent Systems](https://dl.acm.org/citation.cfm?id=3331837), X. Hao et al., AAMAS 2019
@@ -167,6 +197,8 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings](https://arxiv.org/abs/1905.01296), N. Rhinehart et al., 2019 [[blog]](https://sites.google.com/view/precog)
 
 ### Inverse reinforcement learning
+  * Inferring Task Goals and Constraints using Bayesian Nonparametric Inverse Reinforcement Learning, D. Park et al., CoRL 2019
+
   * [Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations](http://proceedings.mlr.press/v97/brown19a/brown19a.pdf), D. Brown et al., ICML 2019
 
   * [Learning Reward Functions by Integrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928), M. Palan et al., 2019
@@ -185,7 +217,7 @@ Please feel free to send me [pull request](https://github.com/kristery/Awesome-I
   * [Learning Belief Representations for Imitation Learning in POMDPs](https://arxiv.org/pdf/1906.09510.pdf), T. Gangwani et al., 2019
 
 ### Planning
-  * [Dyna-AIL : Adversarial Imitation Learning by Planning](https://arxiv.org/abs/1903.03234), V Saxena et al., 2019
+  * [Dyna-AIL : Adversarial Imitation Learning by Planning](https://arxiv.org/abs/1903.03234), V. Saxena et al., 2019
 
 ## Tutorials and talks
   * [2018 ICML](https://www.youtube.com/watch?v=6rZTaboSY4k) [(Slides)](https://sites.google.com/view/icml2018-imitation-learning/)
